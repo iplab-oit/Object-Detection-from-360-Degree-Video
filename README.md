@@ -2,6 +2,7 @@
 360度動画から透視投影画像を生成し、YOLOによるランドマーク検出と精度評価を行う卒業研究コード（引継ぎ用）
 
 プログラムの説明
+
 evaluate_detection_results.py　物体検出結果（prediction）と正解ラベル（test）を比較して、TP・FP・TN・FNを計算し、IoUも記録する評価コード
 
 Evaluation_index_calculation.py　すでに求めたTP、TN、FP、FNからAccuracy、Precision、Recall、F1スコアを計算して表示するプログラム
